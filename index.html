@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mathew | Massive Business Growth</title>
+  <meta name="description" content="Email marketing, Twitch growth, channel branding and social media promotion focused on real results.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--primary:#22c55e;--bg:#0a0a0f;--card:#12121a;--soft:#1a1a24;--text:#f1f5f9;--muted:#94a3b8;--border:#2a2a3a;--whatsapp:#25d366}
+    *{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}img,video{max-width:100%;display:block}a{color:inherit;text-decoration:none}h1,h2,h3{font-family:Outfit,Inter,sans-serif;text-wrap:balance}.wrap{width:min(1120px,calc(100% - 32px));margin-inline:auto}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:46px;padding:12px 22px;border-radius:12px;font-weight:600;font-size:.95rem;border:0;cursor:pointer;transition:transform .15s,opacity .15s}.btn:hover{transform:translateY(-1px);opacity:.94}.btn-green{background:var(--primary);color:#052e16}.btn-wa{background:var(--whatsapp);color:#fff}.btn-line{background:transparent;color:var(--text);border:1.5px solid var(--border)}
+    .label{color:var(--primary);font-size:.75rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;margin-bottom:10px}.section-head{margin-bottom:28px}.section-head h2{font-size:clamp(1.7rem,3.5vw,2.4rem);margin-bottom:8px}.section-head p{color:var(--muted);max-width:680px}
+    nav.top{position:sticky;top:0;z-index:50;background:rgba(10,10,15,.92);backdrop-filter:blur(14px);border-bottom:1px solid var(--border)}.nav-in{display:flex;align-items:center;justify-content:space-between;height:64px}.brand{display:flex;align-items:center;gap:10px;font-weight:800}.brand img{width:38px;height:38px;border-radius:9px;background:#fff;object-fit:contain;padding:2px}.links{display:flex;gap:18px;align-items:center}.links a{color:var(--muted);font-size:.88rem;font-weight:500}.links a:hover{color:var(--primary)}.menu-btn{display:none;background:none;border:0;color:var(--text);font-size:1.5rem;min-width:44px;min-height:44px}
+    .hero{padding:72px 0 64px;display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center}.hero h1{font-size:clamp(2rem,5vw,3.25rem);line-height:1.1}.hero h1 span{color:var(--primary)}.hero .lead{color:var(--muted);margin:18px 0 28px;font-size:1.08rem}.row{display:flex;flex-wrap:wrap;gap:12px}.stats{display:flex;gap:30px;margin-top:34px;flex-wrap:wrap}.stats b{display:block;color:var(--primary);font-size:1.55rem;font-family:Outfit,sans-serif}.stats span{color:var(--muted);font-size:.8rem}.panel{background:var(--card);border:1px solid var(--border);border-radius:20px;padding:14px;overflow:hidden}.panel img{width:100%;border-radius:12px}
+    section{padding:68px 0}.alt{background:var(--card)}.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:16px}.grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.card{background:var(--bg);border:1px solid var(--border);border-radius:16px;padding:22px}.alt .card{background:var(--soft)}.card h3{margin-bottom:8px;font-size:1.08rem}.card p,.card li{color:var(--muted);font-size:.92rem}.card ul{margin-top:12px;padding-left:18px}.shot{border:1px solid var(--border);border-radius:16px;overflow:hidden;background:#0d0d14}.shot img,.shot video{width:100%}.shot figcaption{padding:12px 14px;font-size:.88rem;color:var(--muted);border-top:1px solid var(--border);background:var(--card)}.shot figcaption strong{color:var(--text);display:block;margin-bottom:2px}.case-meta{display:flex;gap:20px;flex-wrap:wrap;margin:12px 0 18px}.case-stat{background:var(--bg);border:1px solid var(--border);border-radius:12px;padding:12px 16px}.case-stat b{display:block;color:var(--primary);font-family:Outfit,sans-serif;font-size:1.35rem}.case-stat span{color:var(--muted);font-size:.78rem}.price .amt{font-size:2rem;font-weight:800;color:var(--primary);font-family:Outfit,sans-serif;margin:5px 0 2px}.popular{border-color:var(--primary);background:rgba(34,197,94,.07);position:relative}.badge{position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:var(--primary);color:#052e16;font-size:.72rem;font-weight:800;padding:4px 12px;border-radius:999px;white-space:nowrap}.faq details{background:var(--bg);border:1px solid var(--border);border-radius:12px;padding:16px 18px}.faq details+details{margin-top:10px}.faq summary{cursor:pointer;font-weight:700}.faq details p{color:var(--muted);margin-top:10px}.contact{text-align:center}.contact p{color:var(--muted)}footer{padding:40px 0 48px;text-align:center;color:var(--muted);font-size:.9rem;border-top:1px solid var(--border)}footer img{width:44px;height:44px;margin:0 auto 12px;border-radius:10px;background:#fff;object-fit:contain;padding:3px}
+    @media(max-width:900px){.hero,.grid-3,.grid-2,.grid-4{grid-template-columns:1fr}.links{display:none}.links.open{display:flex;flex-direction:column;gap:4px;position:absolute;left:0;right:0;top:64px;background:var(--card);padding:12px 16px 16px;border-bottom:1px solid var(--border)}.links.open a{padding:10px 8px}.menu-btn{display:block}section{padding:52px 0}.hero{padding:44px 0 40px}}
+
+/* ===== PREMIUM V3 VISUAL POLISH ===== */
+:root{
+  --bg:#070a10;--card:#0e1420;--soft:#131b29;--text:#f8fafc;--muted:#b8c4d4;
+  --border:rgba(148,163,184,.18);--primary:#22c55e;--primary-dark:#16a34a;
+  --accent:#8b5cf6;--accent-2:#38bdf8;
+}
+body{
+  background:radial-gradient(circle at 12% 8%,rgba(139,92,246,.10),transparent 28rem),
+             radial-gradient(circle at 88% 18%,rgba(34,197,94,.08),transparent 30rem),var(--bg);
+}
+nav.top{background:rgba(7,10,16,.86);border-bottom:1px solid var(--border);box-shadow:0 12px 40px rgba(0,0,0,.18)}
+.section-head p,.card p,.card li,.shot figcaption,.stats span{color:var(--muted)}
+.panel,.card,.shot{border-color:var(--border);box-shadow:0 18px 50px rgba(0,0,0,.18);transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease}
+.card:hover,.shot:hover{transform:translateY(-5px);border-color:rgba(34,197,94,.38);box-shadow:0 24px 60px rgba(0,0,0,.28),0 0 28px rgba(34,197,94,.08)}
+.panel:hover{border-color:rgba(139,92,246,.38);box-shadow:0 28px 70px rgba(0,0,0,.32),0 0 35px rgba(139,92,246,.10)}
+.panel img,.shot img{transition:transform .35s ease,filter .35s ease}.shot:hover img{transform:scale(1.015)}
+.btn-green,.btn-wa{box-shadow:0 10px 28px rgba(34,197,94,.16)}
+.contact-options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;max-width:820px;margin:28px auto 0}
+.contact-option{min-height:76px;display:flex;align-items:center;gap:12px;padding:14px 16px;border:1px solid var(--border);border-radius:16px;background:linear-gradient(145deg,rgba(255,255,255,.045),rgba(255,255,255,.018));color:var(--text);text-align:left;cursor:pointer;transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}
+.contact-option:hover{transform:translateY(-4px);border-color:rgba(56,189,248,.35);box-shadow:0 18px 40px rgba(0,0,0,.25)}
+.contact-option strong,.contact-option small{display:block}.contact-option small{color:var(--muted);margin-top:2px;font-size:.76rem;word-break:break-word}
+.contact-icon{width:42px;height:42px;flex:0 0 42px;display:grid;place-items:center;border-radius:12px;background:rgba(34,197,94,.12);color:var(--primary);font-weight:800;font-size:.78rem}
+.discord .contact-icon{background:rgba(139,92,246,.14);color:#c4b5fd}.email .contact-icon{background:rgba(56,189,248,.12);color:#7dd3fc}
+.copy-status{min-height:22px;margin-top:10px;color:var(--primary);font-size:.86rem}
+footer{background:#05070b;text-align:left;padding:52px 0 24px}
+.footer-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1.2fr;gap:32px;padding-bottom:32px}
+.footer-brand p{color:var(--muted);max-width:360px;margin-top:10px}.footer-title{color:var(--text);font-weight:800;margin-bottom:12px}
+.footer-links{display:grid;gap:8px}.footer-links a{color:var(--muted);font-size:.9rem;transition:color .2s,transform .2s}.footer-links a:hover{color:var(--primary);transform:translateX(2px)}
+.footer-bottom{padding-top:18px;border-top:1px solid var(--border);color:var(--muted);font-size:.82rem;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+@media(max-width:760px){.contact-options{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:480px){.footer-grid{grid-template-columns:1fr}}
+
+  
+/* ===== V4 FINAL POLISH LAYER ===== */
+:root{
+  --bg:#070a10;
+  --card:#0e1420;
+  --soft:#131b29;
+  --text:#f8fafc;
+  --muted:#b8c4d4;
+  --border:rgba(148,163,184,.18);
+  --primary:#22c55e;
+  --accent:#8b5cf6;
+  --blue:#38bdf8;
+}
+body{
+  background:
+    radial-gradient(circle at 10% 5%,rgba(139,92,246,.10),transparent 30rem),
+    radial-gradient(circle at 90% 15%,rgba(34,197,94,.08),transparent 30rem),
+    var(--bg);
+}
+nav.top{
+  background:rgba(7,10,16,.88);
+  border-bottom:1px solid var(--border);
+  box-shadow:0 12px 40px rgba(0,0,0,.20);
+  backdrop-filter:blur(12px);
+}
+.section-head p,.card p,.card li,.shot figcaption,.stats span{color:var(--muted)}
+.panel,.card,.shot{
+  border-color:var(--border);
+  box-shadow:0 18px 50px rgba(0,0,0,.18);
+  transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease;
+}
+.card:hover,.shot:hover{
+  transform:translateY(-5px);
+  border-color:rgba(34,197,94,.38);
+  box-shadow:0 24px 60px rgba(0,0,0,.30),0 0 30px rgba(34,197,94,.08);
+}
+.panel:hover{
+  border-color:rgba(139,92,246,.38);
+  box-shadow:0 28px 70px rgba(0,0,0,.32),0 0 36px rgba(139,92,246,.10);
+}
+.panel img,.shot img{transition:transform .35s ease,filter .35s ease}
+.shot:hover img{transform:scale(1.015)}
+.contact-options{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:14px;
+  max-width:860px;
+  margin:28px auto 0;
+}
+.contact-option{
+  min-height:78px;
+  display:flex;
+  align-items:center;
+  gap:12px;
+  padding:14px 16px;
+  border:1px solid var(--border);
+  border-radius:16px;
+  background:linear-gradient(145deg,rgba(255,255,255,.055),rgba(255,255,255,.018));
+  color:var(--text);
+  text-align:left;
+  cursor:pointer;
+  font:inherit;
+  transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease;
+}
+.contact-option:hover{
+  transform:translateY(-4px);
+  border-color:rgba(56,189,248,.35);
+  box-shadow:0 18px 40px rgba(0,0,0,.25);
+}
+.contact-option strong,.contact-option small{display:block}
+.contact-option small{color:var(--muted);margin-top:2px;font-size:.76rem;word-break:break-word}
+.contact-icon{
+  width:42px;height:42px;flex:0 0 42px;
+  display:grid;place-items:center;border-radius:12px;
+  background:rgba(34,197,94,.12);color:var(--primary);
+  font-weight:800;font-size:.78rem;
+}
+.discord .contact-icon{background:rgba(139,92,246,.14);color:#c4b5fd}
+.email .contact-icon{background:rgba(56,189,248,.12);color:#7dd3fc}
+.copy-status{min-height:22px;margin-top:10px;color:var(--primary);font-size:.86rem}
+#client-review video{width:100%;border-radius:14px;background:#05070b}
+#client-review .card{display:flex;flex-direction:column;justify-content:center}
+footer{
+  background:#05070b;
+  text-align:left;
+  padding:52px 0 24px;
+  border-top:1px solid var(--border);
+}
+.footer-grid{
+  display:grid;
+  grid-template-columns:1.5fr 1fr 1fr 1.2fr;
+  gap:32px;
+  padding-bottom:32px;
+}
+.footer-brand p{color:var(--muted);max-width:380px;margin-top:10px}
+.footer-title{color:var(--text);font-weight:800;margin-bottom:12px}
+.footer-links{display:grid;gap:8px}
+.footer-links a{color:var(--muted);font-size:.9rem;transition:color .2s,transform .2s}
+.footer-links a:hover{color:var(--primary);transform:translateX(2px)}
+.footer-bottom{
+  padding-top:18px;
+  border-top:1px solid var(--border);
+  color:var(--muted);
+  font-size:.82rem;
+  display:flex;
+  justify-content:space-between;
+  gap:16px;
+  flex-wrap:wrap;
+}
+@media(max-width:760px){
+  .contact-options{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:480px){.footer-grid{grid-template-columns:1fr}}
+
+</style>
+</head>
+<body>
+  <nav class="top">
+    <div class="wrap nav-in">
+      <a class="brand" href="#top"><img src="media/logo.jpg" alt="Massive Business Growth logo"><span><span style="color:var(--primary)">Mathew</span> Growth</span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+      <div class="links" id="links">
+        <a href="#about">About</a><a href="#how-it-works">How it works</a><a href="#email">Email</a><a href="#twitch">Twitch</a><a href="#social">Social</a><a href="#testimonials">Reviews</a><a href="#faq">FAQ</a><a href="#contact">Contact</a>
+        <a class="btn btn-green" href="https://wa.me/2347040215254" target="_blank" rel="noreferrer">WhatsApp</a>
+      </div>
+    </div>
+  </nav>
+
+  <main id="top">
+    <div class="wrap hero">
+      <div>
+        <p class="label">Real organic growth only</p>
+        <h1>Grow your business &amp; <span>Twitch channel</span> with proven strategies</h1>
+        <p class="lead">Advanced email marketing for brands. Real organic followers, channel branding, and social media promotion for creators and businesses.</p>
+        <div class="row"><a class="btn btn-wa" href="https://wa.me/2347040215254" target="_blank" rel="noreferrer">Chat on WhatsApp</a><a class="btn btn-line" href="#twitch">See Twitch results</a></div>
+        <div class="stats"><div><b>5.1K+</b><span>Visible follower milestone</span></div><div><b>$28K+</b><span>Client revenue proof</span></div><div><b>100%</b><span>Organic approach</span></div></div>
+      </div>
+      <div class="panel"><img src="media/dashboard.jpg" alt="Twitch earnings dashboard showing $28,897.87 in 30 days"></div>
+    </div>
+
+    <section id="about">
+      <div class="wrap"><div class="section-head"><p class="label">About</p><h2>Who I help &amp; what I do</h2><p>I help businesses increase revenue with email marketing, and I help Twitch streamers grow real audiences without fake bots.</p></div><div class="grid-3"><div class="card"><h3>Targeted audience</h3><p>Reach people already interested in what you offer.</p></div><div class="card"><h3>Personalized campaigns</h3><p>Messages built to create trust and convert — not spam.</p></div><div class="card"><h3>Proven results</h3><p>Real revenue, audience growth, and creative work you can see.</p></div></div></div>
+    </section>
+
+    <section id="how-it-works" class="alt">
+      <div class="wrap"><div class="section-head"><p class="label">How it works</p><h2>A simple process built around your goal</h2><p>From the first conversation to implementation and progress tracking, the focus stays on the result you want.</p></div><div class="grid-4"><div class="card"><h3>01. Tell me your goal</h3><p>We discuss your business, channel, audience, or growth target.</p></div><div class="card"><h3>02. Build the strategy</h3><p>We choose the right service and approach for the goal.</p></div><div class="card"><h3>03. Put it into action</h3><p>The campaign, growth work, branding, or setup is implemented.</p></div><div class="card"><h3>04. Track progress</h3><p>We review the work and progress while the project continues.</p></div></div></div>
+    </section>
+
+    <section id="email">
+      <div class="wrap">
+        <div class="section-head"><p class="label">Email Marketing</p><h2>Turn leads into paying customers</h2><p>Sales funnels, automation, and conversion campaigns designed to build trust and move interested leads toward a purchase.</p></div>
+        <div class="grid-3" style="margin-bottom:28px"><div class="card"><h3>Lead generation</h3><p>Collect warm leads who already care about your offer.</p></div><div class="card"><h3>Sales funnels</h3><p>Structured sequences that educate, build trust, and sell.</p></div><div class="card"><h3>Automation</h3><p>Set up useful email sequences that work consistently.</p></div></div>
+        <p class="label" style="margin-bottom:14px">Learn about the service</p>
+        <div class="grid-2">
+          <figure class="shot"><video controls preload="metadata" poster="media/poster-email-what-is.jpg"><source src="media/video-email-what-is.mp4" type="video/mp4"></video><figcaption><strong>What is email marketing?</strong> Short explainer</figcaption></figure>
+          <figure class="shot"><video controls preload="metadata" poster="media/poster-email-conversions.jpg"><source src="media/video-email-conversions.mp4" type="video/mp4"></video><figcaption><strong>Why email converts</strong> Understanding the channel</figcaption></figure>
+          <figure class="shot"><video controls preload="metadata" poster="media/poster-email-advanced.jpg"><source src="media/video-email-advanced.mp4" type="video/mp4"></video><figcaption><strong>Advanced email marketing</strong> Strategy breakdown</figcaption></figure>
+        </div>
+        <div class="row" style="margin-top:24px"><a class="btn btn-wa" href="https://wa.me/2347040215254?text=Hi%20Mathew%2C%20I%20want%20to%20talk%20about%20email%20marketing" target="_blank" rel="noreferrer">Talk about email marketing</a></div>
+      </div>
+    </section>
+
+    <section id="twitch" class="alt">
+      <div class="wrap">
+        <div class="section-head"><p class="label">Twitch Growth</p><h2>Real organic growth &amp; professional channel setup</h2><p>Audience growth, channel branding, overlays, logos, panels, SEO, and setup — organized around what your stream needs.</p></div>
+
+        <div class="section-head"><p class="label">Case study 01</p><h3 style="font-size:1.5rem">ProfessorXDS</h3><p>Started working with the channel at <strong style="color:var(--text)">17 followers</strong>. The channel is now at <strong style="color:var(--primary)">3.1K followers</strong>, and the work is still ongoing.</p></div>
+        <div class="case-meta"><div class="case-stat"><b>17</b><span>Followers at start</span></div><div class="case-stat"><b>3.1K</b><span>Current followers</span></div><div class="case-stat"><b>Ongoing</b><span>Work continues</span></div></div>
+        <figure class="shot" style="margin-bottom:38px"><img src="media/professorxds-current.jpg" alt="ProfessorXDS Twitch profile showing 3.1K followers"><figcaption><strong>ProfessorXDS — 3.1K followers</strong> Current channel snapshot; growth is still ongoing.</figcaption></figure>
+
+        <div class="section-head"><p class="label">Case study 02</p><h3 style="font-size:1.5rem">Carr1rise</h3><p>Started working with the channel at <strong style="color:var(--text)">11 followers</strong>. The available screenshots below show the visible progression from <strong style="color:var(--text)">500 → 1.1K → 5.1K</strong>.</p></div>
+        <div class="grid-3" style="margin-bottom:38px"><figure class="shot"><img src="media/carr1rise-500.jpg" alt="Carr1rise Twitch profile at 500 followers"><figcaption><strong>500 followers</strong> Growth checkpoint</figcaption></figure><figure class="shot"><img src="media/carr1rise-1k.jpg" alt="Carr1rise Twitch profile at 1.1K followers"><figcaption><strong>1.1K followers</strong> Mid-progress checkpoint</figcaption></figure><figure class="shot"><img src="media/carr1rise-5k.jpg" alt="Carr1rise Twitch profile at 5.1K followers"><figcaption><strong>5.1K followers</strong> Current visible result</figcaption></figure></div>
+
+        <p class="label" style="margin-bottom:12px">Additional result</p><figure class="shot" style="margin-bottom:38px"><img src="media/dashboard-full.jpg" alt="Full Twitch creator dashboard showing $28,897.87 revenue in 30 days"><figcaption><strong>Twitch earnings proof</strong> $28,897.87 revenue in 30 days</figcaption></figure>
+
+        <div class="section-head"><p class="label">Twitch branding showcase</p><h3 style="font-size:1.5rem">Wantssmoke Clan</h3><p>A custom Twitch logo and matching channel banner created for the client&apos;s gaming brand.</p></div>
+        <figure class="shot" style="margin-bottom:20px"><img src="media/wantssmoke-logo.jpg" alt="Wantssmoke Clan Twitch logo - hooded skeleton with headphones and neon green branding"><figcaption><strong>Wantssmoke Clan logo</strong> Custom stream brand</figcaption></figure>
+        <figure class="shot" style="margin-bottom:38px"><img src="media/wantssmoke-banner.jpg" alt="Wantssmoke Clan Twitch banner - neon green skeleton branding"><figcaption><strong>Wantssmoke Clan banner</strong> Full channel banner</figcaption></figure>
+
+        <div class="section-head"><p class="label">Channel branding</p><h3 style="font-size:1.5rem">Give your channel a professional identity</h3><p>Custom logos and banners designed for a consistent stream brand.</p></div>
+        <div class="grid-2" style="margin-bottom:38px"><figure class="shot"><img src="media/paullusion-logo.jpg" alt="Paullusion logo design"><figcaption><strong>Paullusion logo</strong> Custom stream brand</figcaption></figure><figure class="shot"><img src="media/paullusion-banner.png" alt="Paullusion banner Build Explore Conquer"><figcaption><strong>Paullusion banner</strong> Build · Explore · Conquer</figcaption></figure></div>
+
+        <p class="label" style="margin-bottom:12px">Twitch promotion plans</p>
+        <div class="grid-4">
+          <div class="card price"><h3>Starter</h3><div class="amt">$50</div><p>100 targeted leads</p><ul><li>100 real leads</li><li>100 followers</li></ul><a class="btn btn-line" style="width:100%;margin-top:16px" href="https://wa.me/2347040215254?text=Hi%20Mathew%2C%20I%20want%20the%20Starter%20package" target="_blank" rel="noreferrer">Get started</a></div>
+          <div class="card price"><h3>Growth</h3><div class="amt">$250</div><p>500 targeted leads</p><ul><li>500 real leads</li><li>Logo &amp; banner</li></ul><a class="btn btn-line" style="width:100%;margin-top:16px" href="https://wa.me/2347040215254?text=Hi%20Mathew%2C%20I%20want%20the%20Growth%20package" target="_blank" rel="noreferrer">Get started</a></div>
+          <div class="card price popular"><div class="badge">Most popular</div><h3>Pro</h3><div class="amt">$500</div><p>1,000 targeted leads</p><ul><li>1,000 real leads</li><li>Logo, banner, panels</li><li>Schedule, intro &amp; outro</li></ul><a class="btn btn-green" style="width:100%;margin-top:16px" href="https://wa.me/2347040215254?text=Hi%20Mathew%2C%20I%20want%20the%20Pro%20package" target="_blank" rel="noreferrer">Get started</a></div>
+          <div class="card price"><h3>Elite</h3><div class="amt">$2,500</div><p>5,000 targeted leads</p><ul><li>5,000 real leads</li><li>Full branding</li><li>SEO + bot scanner</li></ul><a class="btn btn-line" style="width:100%;margin-top:16px" href="https://wa.me/2347040215254?text=Hi%20Mathew%2C%20I%20want%20the%20Elite%20package" target="_blank" rel="noreferrer">Get started</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="social">
+      <div class="wrap"><div class="section-head"><p class="label">Social Media Promotion</p><h2>Grow on the platforms your audience uses</h2><p>YouTube, TikTok, Instagram, Facebook, X, and Kick. Pricing is custom — message me for a quote.</p></div><div class="grid-3"><div class="card"><h3>YouTube</h3><p>Channel growth, reach, and consistency strategy.</p></div><div class="card"><h3>TikTok &amp; Instagram</h3><p>Short-form visibility and audience building.</p></div><div class="card"><h3>Facebook, X &amp; Kick</h3><p>Multi-platform promotion tailored to your niche.</p></div></div><div class="row" style="margin-top:24px"><a class="btn btn-wa" href="https://wa.me/2347040215254?text=Hi%20Mathew%2C%20I%20want%20a%20quote%20for%20social%20media%20promotion" target="_blank" rel="noreferrer">Get a social media quote</a></div></div>
+    </section>
+
+    <section id="client-review" class="alt">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="label">Real Client Experience</p>
+      <h2>Hear directly from a Twitch client</h2>
+      <p>A real client video review, placed alongside the Twitch growth results.</p>
+    </div>
+    <div class="grid-2">
+      <figure class="shot">
+        <video controls preload="metadata" playsinline>
+          <source src="media/client-video-review.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <figcaption><strong>Twitch client video review</strong> — Real feedback about the work.</figcaption>
+      </figure>
+      <div class="card">
+        <p class="label">Client Review</p>
+        <h3>Real results, backed by a real client experience.</h3>
+        <p>This review complements the ProfessorXDS and Carr1rise case studies without exposing private WhatsApp conversations.</p>
+        <a class="btn btn-wa" style="margin-top:18px" href="#contact">Talk About Your Growth</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="testimonials" class="alt">
+      <div class="wrap"><div class="section-head"><p class="label">Testimonials</p><h2>What clients say</h2><p>Written and video feedback from clients who have used the service.</p></div><div class="grid-2"><blockquote class="card"><p style="font-style:italic">“I was able to make close to thirty-five thousand dollars starting from January 2025 till now. Massive Business Growth is really the best option if you are finding it difficult to get sales.”</p><p style="margin-top:14px;font-weight:700;color:var(--text)">Client — about $35K generated</p></blockquote><blockquote class="card"><p style="font-style:italic">“His service really worked beyond my expectations. I’ll always recommend you over and over again.”</p><p style="margin-top:14px;font-weight:700;color:var(--text)">Client — scaled sales from the bottom</p></blockquote><figure class="shot"><video controls preload="metadata" poster="media/poster-testimonial-man.jpg"><source src="media/video-testimonial-man.mp4" type="video/mp4"></video><figcaption><strong>Video testimonial</strong> Client review on camera</figcaption></figure><figure class="shot"><video controls preload="metadata" poster="media/poster-testimonial-woman.jpg"><source src="media/video-testimonial-woman.mp4" type="video/mp4"></video><figcaption><strong>Video testimonial</strong> Results story on camera</figcaption></figure></div></div>
+    </section>
+
+    <section id="faq" class="faq">
+      <div class="wrap"><div class="section-head"><p class="label">FAQ</p><h2>Questions before getting started?</h2></div><details><summary>Is the Twitch growth organic?</summary><p>The service is presented around real audiences and organic growth, not fake bots.</p></details><details><summary>Can I get channel branding too?</summary><p>Yes. Branding services can include logos, banners, panels, overlays, and other stream assets.</p></details><details><summary>Do you work with businesses too?</summary><p>Yes. Email marketing and social media promotion are available for businesses as well as creator-focused services.</p></details><details><summary>How do I get a custom quote?</summary><p>Send a message on WhatsApp or email with what you want to grow, and we can discuss the right service.</p></details></div>
+    </section>
+
+    <section id="contact" class="contact alt">
+  <div class="wrap">
+    <p class="label">Contact</p>
+    <h2>Ready to grow?</h2>
+    <p style="margin:12px auto 24px;max-width:560px">
+      Choose the contact method that works best for you.
+    </p>
+    <div class="contact-options">
+      <a class="contact-option whatsapp" href="https://wa.me/2347040215254" target="_blank" rel="noreferrer">
+        <span class="contact-icon">WA</span>
+        <span><strong>WhatsApp</strong><small>0704 021 5254</small></span>
+      </a>
+      <button class="contact-option discord" type="button" id="discordBtn" data-discord="@massivebusinessgrowth">
+        <span class="contact-icon">DC</span>
+        <span><strong>Discord</strong><small>@massivebusinessgrowth</small></span>
+      </button>
+      <a class="contact-option email" href="mailto:mathewmbizgrowth@gmail.com">
+        <span class="contact-icon">@</span>
+        <span><strong>Email</strong><small>mathewmbizgrowth@gmail.com</small></span>
+      </a>
+    </div>
+    <p class="copy-status" id="discordStatus" aria-live="polite"></p>
+  </div>
+</section>
+  </main>
+
+  <footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="media/logo.jpg" alt="Massive Business Growth logo">
+        <p><strong style="color:var(--primary)">Massive Business Growth</strong><br>
+        Helping businesses and creators grow through email marketing, Twitch growth, branding, and social media promotion.</p>
+      </div>
+      <div>
+        <div class="footer-title">Quick Links</div>
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#how-it-works">How It Works</a>
+          <a href="#email">Email Marketing</a>
+          <a href="#twitch">Twitch Growth</a>
+          <a href="#testimonials">Reviews</a>
+          <a href="#faq">FAQ</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-title">Services</div>
+        <div class="footer-links">
+          <a href="#email">Email Marketing</a>
+          <a href="#twitch">Twitch Growth</a>
+          <a href="#twitch">Channel Branding</a>
+          <a href="#social">Social Media Promotion</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-title">Let's Work Together</div>
+        <div class="footer-links">
+          <a href="https://wa.me/2347040215254" target="_blank" rel="noreferrer">WhatsApp</a>
+          <a href="#contact">Discord: @massivebusinessgrowth</a>
+          <a href="mailto:mathewmbizgrowth@gmail.com">Email</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Massive Business Growth. All rights reserved.</span>
+      <span>Built for creators &amp; businesses.</span>
+    </div>
+  </div>
+</footer>
+  <script>const btn=document.getElementById("menuBtn");const links=document.getElementById("links");btn.addEventListener("click",()=>links.classList.toggle("open"));links.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>links.classList.remove("open")));
+const discordBtn=document.getElementById("discordBtn");
+const discordStatus=document.getElementById("discordStatus");
+if(discordBtn){
+  discordBtn.addEventListener("click",async()=>{
+    const username=discordBtn.dataset.discord;
+    try{
+      await navigator.clipboard.writeText(username);
+      discordStatus.textContent="Discord username copied!";
+    }catch(e){
+      discordStatus.textContent="Discord: "+username;
+    }
+    setTimeout(()=>{discordStatus.textContent=""},2500);
+  });
+}
+
+</script>
+</body>
+</html>
